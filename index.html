@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Samuel Yazie">
+        <meta name="description" content="Samuel Yazie web developer">
+        <meta name="keywords" content="web developer, web, developer, 
+          front-end, html, css, javascript, react, sqi">
+        <title>EcoRide</title>
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet'/>
+        <script src="./assets/script/index.js" type="module"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container head">
+                <h1>Eco<span>Delivery</span></h1>
+                <nav>
+                    <ul id="navigation">
+                        <li><a class="btn aboutEco" href="#about">About</a></li>
+                        <li><a class="btn keyFeature" href="#keyFeatures">Key features</a></li>
+                        <li><a class="btn contacts menuContact" href="#contacts">Contacts</a></li>
+                        <li id="hamburger"><img src="./assets/img/bars-solid.svg" width="20" height="20"></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container menus">
+                <nav>
+                    <ul>
+                        <li><a class="btn aboutEco" href="#about">About</a></li>
+                        <li><a class="btn keyFeature" href="#keyFeatures">Key features</a></li>
+                        <li><a class="btn contacts" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <button id="scrollToTopBtn"><img src="./assets/img/arrow-up-solid.svg" width="20" height="20"></button>
+            <div class="titleCard">
+                <h1>Delivering Green, <span>Keeping It Clean!</span></h1>
+                <h1></h1>
+            </div>
+            <div class="container mid">
+                <div class="part about">
+                    <div class="imgContainer">
+                        <img src="./assets/img/Delivery-service-with-car-on-transparent-background-PNG-removebg-preview.png" width="500" height="500">
+                    </div>
+                    <div class="aboutEco">
+                        <h2>About Eco<span>Ride</span></h2>
+                        <p>
+                            EcoDeliver is a revolutionary eco-friendly delivery service committed to reducing 
+                            the environmental impact of logistics. Our platform connects businesses and individuals 
+                            with a fleet of electric and hybrid delivery vehicles, ensuring a sustainable and efficient 
+                            delivery experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="part keyFeatures">
+                <h1>key features</h1>
+            </div>
+            <div class="featuresContainer">
+                <a class="feat">
+                    <div class="pro">
+                        <h2>Green <span>Fleet</span></h2>
+                        <p>
+                            EcoDeliver works with partners with electric and hybrid vehicles, 
+                            minimizing carbon emissions for eco-conscious deliveries.
+                        </p>
+                    </div>
+                </a>
+                <a class="feat">
+                    <div class="pro">
+                        <h2>Eco-Impact <span>Map</span></h2>
+                        <p>
+                            The map showcases real-time reductions in the carbon footprint, 
+                            allowing users to visualize the positive impact of choosing EcoDeliver.
+                        </p>
+                    </div>
+                </a>
+                <a class="feat">
+                    <div class="pro">
+                        <h2>Sustainable <span>Packaging</span></h2>
+                        <p>
+                            EcoDeliver offers eco-friendly packaging options, reducing waste and 
+                            promoting environmentally conscious delivery practices.
+                        </p>
+                    </div>
+                </a>
+                <a class="feat">
+                    <div class="pro">
+                        <h2>Delivery Rewards <span>Program</span></h2>
+                        <p>
+                            Earn points for choosing eco-friendly delivery, redeemable for discounts, 
+                            free deliveries, or donations to environmental causes.
+                        </p>
+                    </div>
+                </a>
+                <a class="feat">
+                    <div class="pro">
+                        <h2>Green Logistics <span>Practices</span></h2>
+                        <p>
+                            EcoDeliver optimizes routes to minimize fuel consumption and implements 
+                            recycling initiatives, ensuring sustainable and efficient logistics.
+                        </p>
+                    </div>
+                </a>
+                <a class="feat">
+                    <div class="pro">
+                        <h2>Environmental Education <span>Hub</span></h2>
+                        <p>
+                            The platform provides educational content on the environmental benefits of green 
+                            delivery and tips for embracing a sustainable lifestyle.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </main>
+        <footer>
+            <div class="container foot">
+                <div class="part link">
+                    <h2>Contact Us</h2>
+                    <a class="github" href="https://github.com/Sazie101">
+                        <img src="./assets/img/github.svg" width="50" height="50">
+                    </a>
+                    <a href="https://www.instagram.com/sazie1013/">
+                        <img src="./assets/img/Instagram_icon.png.webp" width="50" height="50">
+                    </a>
+                </div>
+                <p>&copy; Samuel Yazie - 2023</p>
+            </div>
+            <div id="map"></div>
+        </footer>
+    </body>
+</html>
